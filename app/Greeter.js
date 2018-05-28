@@ -5,11 +5,11 @@ import styles from './Greeter.css';
 
 class Greeter extends Component{
     render() {
-        return {
-            <div className={styles.root}>
-                {config.greetText}
-            </div>
-        }
+        return (
+           <div className={styles.root}>
+               {config.greetText}
+           </div>
+        )
     }
 }
-extends default Greeter
+export default Greeter
